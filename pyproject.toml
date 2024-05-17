@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "qa-guru-hw-16-poetry"
+version = "0.1.0"
+description = "QA GURU"
+authors = ["Aleksandr Mosyakin <aleks.mosyakin@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.2.0"
+selene = "2.0.0rc9"
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
